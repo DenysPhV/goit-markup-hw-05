@@ -370,6 +370,34 @@ img {
   0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.close-btn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  background-color: var(--white-color);
+  border: 1px solid var(--icon-border-color);
+}
+.close-btn:hover,
+.close-btn:focus {
+ border-color: var(--accent-primary);
+}
+
+.close-btn:hover .close-icon,
+.close-btn:focus .close-icon {
+  fill: var(--accent-primary);
+}
+
+.close-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* =========== END HERO SECTION =========== */
 
 /* ======== ADVANTAGE SECTION ======== */
