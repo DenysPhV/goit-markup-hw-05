@@ -227,8 +227,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation-link:hover,
@@ -244,8 +244,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   display: flex;
   justify-content: center;
