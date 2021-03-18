@@ -48,7 +48,7 @@
               href="mailto:info@devstudio.com"
               class="contact-header link-nonstyle"
             >
-              <svg class="icon-mail">
+              <svg class="icon-mail" width="16px" height="12px">
                 <use href="./images/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com
@@ -56,7 +56,7 @@
           </li>
           <li>
             <a href="tel:+380961111111" class="contact-header link-nonstyle">
-              <svg class="icon-tell">
+              <svg class="icon-tell" width="10px" height="16px">
                 <use href="./images/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -74,15 +74,6 @@
           <button type="button" class="btn-hero" data-modal-open>
             Заказать услугу
           </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button type="button" class="close-btn" data-modal-close>
-                <svg class="close-icon" width="30px" height="30px">
-                  <use href="./images/icons.svg#close"></use>
-                </svg>
-              </button>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -155,6 +146,7 @@
                 alt="выполняет работу за клавиатурой"
                 width="370"
               />
+              <p class="passion-overlay">Десктопные приложения</p>
             </li>
             <li class="passion-item">
               <img
@@ -162,6 +154,7 @@
                 alt="Просматривают макеты на телефоне"
                 width="370"
               />
+              <p class="passion-overlay">Мобильные приложения</p>
             </li>
             <li class="passion-item">
               <img
@@ -169,6 +162,7 @@
                 alt="цветовой спектр в виде сот на планшете"
                 width="370"
               />
+              <p class="passion-overlay">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -475,6 +469,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- modal windows -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="close-icon" width="30px" height="30px">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
