@@ -297,6 +297,7 @@ img {
 
 .contact-header {
   color: var(--main-text);
+  fill: var(--main-text);
 
   font-weight: 500;
   font-size: 14px;
@@ -447,6 +448,7 @@ img {
   bottom: 0;
   width: 100%;
 
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
@@ -550,7 +552,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid var(--icon-border-color);
+  border: 1px solid var(--icon-border-color);
   border-radius: 4px;
 
   width: 100%;
@@ -567,7 +569,7 @@ img {
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 2px solid var(--accent-primary);
+  border: 1px solid var(--accent-primary);
 }
 
 .clients-link:hover .client-icon,
