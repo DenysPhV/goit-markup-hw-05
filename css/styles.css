@@ -563,13 +563,12 @@ img {
 
 .client-icon {
   fill: var(--icon-border-color);
-
   transition: fill 250ms var(--transition-property);
 }
 
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--accent-primary);
+  border-color: var(--accent-primary);
 }
 
 .clients-link:hover .client-icon,
